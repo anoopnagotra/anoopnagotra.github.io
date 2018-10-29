@@ -1,6 +1,6 @@
 <?php
 
-    $to = "backpiper.com@gmail.com";
+    $to = "anooplnr@gmail.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -12,12 +12,12 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Ramirez.";
+    $subject = "You have a message from your Anoop Nagotra.";
 
     $logo = 'http://srthemes.com/demo/ramirez/image/logo.png';
     $link = '#';
 
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Ramirez Mail</title></head><body>";
+	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Anoop Nagotra mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
