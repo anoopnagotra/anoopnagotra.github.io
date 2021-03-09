@@ -94,7 +94,7 @@ header{width: 100%; position: fixed;z-index: 1;background-color: transparent;col
       }
       h6{
         color:#283c45;
-        font-size: 14px;
+        font-size: 13px;
         letter-spacing: 3.4px;
       }
       section div div .para{
@@ -390,7 +390,7 @@ header{width: 100%; position: fixed;z-index: 1;background-color: transparent;col
       section div i{
         color:#283c45;
         font-size:16px!important;
-        padding: 10px 15px;
+        padding: 10px 10px;
         position: relative;
         top:-10px;
       }
