@@ -1,0 +1,409 @@
+ *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ html body{
+  font-family: 'museo', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  /*line-height: 1.5em;*/
+ }
+ .bg-item{
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 655px;
+      position: relative;
+      z-index: 0; 
+ }
+
+header{width: 100%; position: fixed;z-index: 1;background-color: transparent;color:#ffffff;}
+
+            .inner_main_menu {margin: 0 auto; width: 1170px;}    
+            .inner_main_menu ul{margin: 0; padding: 100px 0 0; list-style: none;text-align: right;}    
+            .inner_main_menu ul li{float: none; display: inline-block;position: relative}    
+            .inner_main_menu ul li:nth-child(1){float: left;}    
+            .inner_main_menu ul li:nth-child(2){float: left;}  
+            .inner_main_menu ul li:nth-child(3){float: right;}    
+            .inner_main_menu ul li:nth-child(4){float: right;}        
+            .inner_main_menu ul li a{color:#ffffff; font-size: 20px; text-transform: uppercase;text-decoration: none; display: block;padding: 10px 60px;}    
+            .inner_main_menu ul li a:hover{color:#9ed5cb}  
+            .nav-scrolled ul li a{color:#283c45!important; font-size: 20px; text-transform: uppercase;text-decoration: none; display: block;padding: 10px 60px;}   
+
+            .slicknav_menu {
+              background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+              font-size: 16px;
+              padding: 5px;
+              display: none;    
+              position: fixed;
+              right: 0;
+              width: 100%;
+              z-index: 99999;
+            }
+            ul.slicknav_nav {
+              background: #262626 none repeat scroll 0 0;
+              left: 0;
+              line-height: 5em;
+              position: absolute;
+              top: 0;
+              width: 80%;
+            }
+            .slicknav_btn {top: 35px;}
+            .logo_area{width: 100px; height: 100px; position: absolute; left: 50%; top: 20px; content: ""; margin-left:-44px; text-align: center; }
+            .logo_area img{height: auto;width: 100%;}
+            @media only screen and (min-width: 200px) and (max-width:500px) { 
+                .slicknav_menu{display: block;}
+                .inner_main_menu{display: none;}
+                .logo_area {height: auto;left: 0;margin-left: 20px;position: relative;top: 20px;width: 100px;}
+                .logo_area img{height: auto;width: 100%;}
+            	  .bg-item{width:100%;background-size: cover;background-repeat: no-repeat;background-position: center center;}
+              
+              }
+             /* @media only screen and (min-width: 900px) and (max-width: 1024px) { 
+                .slicknav_menu{display: block;}
+                .inner_main_menu{display: none;}
+                .logo_area {height: auto;left: 0;margin-left: 20px;position: relative;top: 20px;width: 130px;}
+                .logo_area img{height: auto;width: 100%;}
+                .bg-item{height: 1366px;}
+              }*/
+            
+     header a i{
+        font-size:24px!important;
+        color:#ffffff;
+        display: inline-block;
+        float:right;
+        padding: 10px 10px;
+      }    
+      h2{
+        color: #283c45;
+        padding: 10px 20px;
+
+      } 
+      h3{
+        color:#283c45;
+        font-size: 28px;
+      }
+      h5{
+        color: #283c45;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      h6{
+        color:#283c45;
+        font-size: 14px;
+        letter-spacing: 2.7px;
+      }
+      section div div .para{
+        color: #283c45;
+        font-size:18px!important;
+        font-family: 'museo sans', sans-serif;
+        line-height: 1.5em;
+        padding: 10px 10px;
+        text-align:left;
+      }  
+      .btn{
+        padding: 20px 10px;
+
+      }
+     .btn a:link,.btn a:visited {
+        background-color: white;
+        color: #283c45;
+        font-size: 10px;
+        border: 2px solid #283c45;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+
+}
+.view-menu a:link,.view-menu a:visited {
+        background-color: white;
+        color: #283c45;
+        font-size: 10px;
+        border: 2px solid #283c45;
+        padding: 7px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+
+}
+  .view-menu a:hover,.view-menu a:active {
+    background-color: #283c45;
+    color: white;
+}
+.group a:link,.group a:visited {
+     background-color: white;
+    color: #283c45;
+    font-size: 6px!important;
+    border: 1px solid #283c45;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+  .group a:hover,.group a:active {
+    background-color: #283c45;
+    color: white;
+}
+.group{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  line-height: .5em;
+  /*top:-30px;*/
+}
+.view-menu{
+  display: flex;
+  justify-content: center;
+}
+
+.order-now{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:-90px;
+}
+.order-now a:link,.order-now a:visited {
+        background-color: white;
+        color: #283c45;
+        font-size: 10px;
+        border: 2px solid #283c45;
+        padding: 7px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 20px;
+
+}
+  .order-now a:hover,.order-now a:active {
+    background-color: #283c45;
+    color: white;
+}
+  .btn a:hover,.btn a:active {
+    background-color: #283c45;
+    color: white;
+}
+      .container{
+        width:60%;
+        height:100%;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin:110px auto;
+        
+      }
+      .box{
+        width: 40%;
+        height: 100%;
+        margin: 30px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        font-size: 30px;
+        overflow: hidden;
+      
+      }
+       .menu{
+        width:80%;
+        height:auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin:10px auto;
+        
+      }
+      .box1{
+        width: 44%;
+        height: auto;
+        margin: 20px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        font-size: 30px;
+        overflow: hidden;
+      
+      }
+       .herbs{
+        width: 44%;
+        height: auto;
+        margin: 20px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow:wrap;
+      }
+      .herb1{
+        width:25%;
+        height: auto;
+        margin:10px;
+        background-color: #ffffff;
+      }
+      .herb1 img{
+        height: 100%;
+        width: 100%;
+      }
+      .box div p{
+        font-size: 18px;
+      }
+      .about-1 img{
+        width: 100%;
+        height:100%;
+      }
+       .about-2 img{
+        width: 100%;
+        height:100%;
+        border-radius: 20px 20px 20px 20px;
+      }
+    section{
+    	/*padding:10px 10px;*/
+    }
+  .bg-discount{
+   width: 100%;
+   height: 40px;
+  }  
+  section .discount{
+    width: 100%;
+    height:40px;
+    text-transform: uppercase;
+    color:#ffffff;
+    background-color:#283c45; 
+    text-align:center;
+    padding: 10px 10px;
+    /*margin: auto auto;*/
+
+  }
+  /*media query*/
+  h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #283c45;
+  }
+  
+  section div p{
+    text-align: center;
+    padding: 5px 0px;
+    color:#283c45;
+  }
+   .dish{
+    background: #ffffff;
+    display: inline-block;
+    color:#283c45; 
+    font-size: 10px;
+    padding: 0px 10px;
+   }
+   section div div span{
+    position: relative;
+    top:-400px;
+   }
+   section div div div span{
+    font-size: 19px!important;
+    position: relative;
+    top:185px;
+   }
+   .home-del p{
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    top:-200px;
+   } 
+      .delivery img{
+    height:100%;
+    width: 100%;
+    padding: 70px;
+    background-color: #283c45;
+   }
+   .footer{
+        width:80%;
+        height:auto;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin:10px auto;
+        
+      }
+   .box-1{
+        width: 30%;
+        height:auto;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        font-size: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow:wrap;
+
+      }
+      .box-2{
+        width: 50%;
+        height: 100%;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        font-size: 30px;
+        overflow: hidden;
+        position: relative;
+        top:120px;
+      
+      }
+      section div .footer-logo img{
+        height:auto;
+        width: 80%;
+      }
+      .links{
+        width:50%;
+        height:auto;
+        background-color:#ffffff;
+        overflow: hidden;
+        position: relative;
+        top:20px;
+
+      }
+      .links a{
+        color: #283c45;
+        font-size: 13px;
+        text-decoration: none;
+        display: inline-block;
+        line-height: 2em;
+        padding:0px 0px 10px 0px;
+      }
+       section div .p1{
+        color:#283c45;
+        font-size: 12px;
+        text-align: left;
+        letter-spacing: .8px;
+      }
+      section div i{
+        color:#283c45;
+        font-size:16px!important;
+        padding: 10px 15px;
+        position: relative;
+        top:-10px;
+      }
+      .address{
+        padding: 0px 0px 6px 0px;
+             }
+      section div .span{
+        color:#283c45;
+        font-size: 11px;
+        position: relative;
+        top:10px;
+        left: -49px;
+        padding: 10px 10px 10px 10px;
+
+      }
